@@ -71,4 +71,15 @@
         app:layout_constraintStart_toEndOf="@+id/box_two"
         app:layout_constraintTop_toBottomOf="@+id/box_four" />
 
+    <TextView
+        android:id="@+id/label_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/how_to_play"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="350dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
